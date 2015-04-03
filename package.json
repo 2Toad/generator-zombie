@@ -22,6 +22,9 @@
   "keywords": [
     "yeoman-generator",
     "zombie",
+    "asp.net",
+    "angularjs",
+    "mvc",
     "2toad"
   ],
   "dependencies": {
