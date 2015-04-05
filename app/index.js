@@ -33,25 +33,22 @@ module.exports = yeoman.generators.Base.extend({
   writing: {
     app: function () {
       this.fs.copy(
-        this.templatePath('_package.json'),
-        this.destinationPath('package.json')
-      );
-      this.fs.copy(
-        this.templatePath('_bower.json'),
-        this.destinationPath('bower.json')
+        this.templatePath('LICENSE'),
+        this.destinationPath('LICENSE')
       );
     },
 
-    projectfiles: function () {
-      this.fs.copy(
-        this.templatePath('editorconfig'),
-        this.destinationPath('.editorconfig')
-      );
-      this.fs.copy(
-        this.templatePath('jshintrc'),
-        this.destinationPath('.jshintrc')
-      );
-    }
+    //TODO: uncomment when app/templates contains Zombie project files
+    //projectfiles: function () {
+    //  this.fs.copy(
+    //    this.templatePath('editorconfig'),
+    //    this.destinationPath('.editorconfig')
+    //  );
+    //  this.fs.copy(
+    //    this.templatePath('jshintrc'),
+    //    this.destinationPath('.jshintrc')
+    //  );
+    //}
   },
 
   install: function () {
