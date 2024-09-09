@@ -1,3 +1,7 @@
+> # Archived Repository 🚨
+> **This project is no longer maintained and has been archived. No further issues, PRs, or updates will be made.**
+---
+
 ![Zombie Logo](http://2toad.com/areas/project/content/images/zombie-logo-small.png)
 
 [![Build Status](https://secure.travis-ci.org/2Toad/generator-zombie.png?branch=master)](https://travis-ci.org/2Toad/generator-zombie) [![Dependencies Status](https://david-dm.org/2Toad/generator-zombie.svg)](https://david-dm.org/2Toad/generator-zombie)
